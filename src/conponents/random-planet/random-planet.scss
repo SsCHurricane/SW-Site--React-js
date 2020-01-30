@@ -1,0 +1,50 @@
+.randPlanet {
+    margin-bottom: 20px;
+}
+
+.center {
+    justify-content: center;
+    text-align: center;
+}
+
+.randPlanet__inner {
+    display: flex;
+    padding: 25px;
+    background-color: rgb(37, 37, 41);
+    border-radius: 8px;
+}
+
+.randPlanet__left {
+    width: 20%;
+    
+}
+
+.randPlanet__img {
+    width: 100%;
+    max-width: 230px;
+    height: auto;
+
+    border-radius: 20px;
+}
+
+.randPlanet__right {
+    margin-left: 35px;
+}
+
+.randPlanet__title {
+    font-size: 22px;
+    font-weight: bold;
+    margin-bottom: 30px;
+}
+
+.randPlanet__text {
+    padding-left: 20px;
+    font-size: 18px;
+
+
+    p{
+        padding: 5px 0;
+
+        border-top: 1px solid rgba(255, 255, 255, 0.123);
+    }
+}

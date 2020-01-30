@@ -1,0 +1,26 @@
+.buttons {
+    display: block;
+    text-align: center;
+}
+
+.buttons__btn {
+    padding: 10px 15px;
+    margin-left: 10px;
+
+    font-size: 18px;
+    font-weight: bold;
+    color: rgb(38, 141, 85);
+    background-color: rgb(37, 37, 41);
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+
+    &:hover, &:focus {
+        color: rgb(67, 216, 134);
+        outline: none;
+    }
+
+    &--active {
+        color: rgb(67, 216, 134);
+    }
+}
